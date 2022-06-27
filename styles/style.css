@@ -1,0 +1,65 @@
+html {
+    font-size: 10px;
+    font-family: 'Noto Sans SC', sans-serif;
+    background-color: #00539f;
+}
+
+body {
+    width: 600px;
+    margin: 0 auto;
+    background-color: #FF9500;
+    padding: 0 20px 20px 20px;
+    border: 5px solid black;
+}
+h1 {
+    font-size: 60px;
+    text-align: center;
+    margin: 0;
+    padding: 20px 0;
+    color: #00539F;
+    text-shadow: 3px 3px 1px red;
+}
+
+p, li{
+    font-size: 16px;
+    line-height: 2;
+    letter-spacing: 1px;
+}
+img {
+    display: block;
+    margin: 0 auto;
+}
+li[class] {
+    color: white;
+}
+
+li[class="a"] {
+    font-size: 20px;
+}
+li[class~="a"] {
+    background-color: red;
+}
+
+ul li:first-child {
+    color: #00539F;
+}
+
+
+#blockOne {
+    border: 1px solid black;
+    padding: .5ex;
+}
+
+.block, li {
+    border: 2px solid purple;
+    padding: .5em;
+}
+
+.flexul {
+    display: inline-flex;
+    list-style: none;
+}
+
+.block {
+    display: block;
+}
